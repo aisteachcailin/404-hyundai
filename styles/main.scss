@@ -3840,24 +3840,29 @@ ul.menu-top li.on a {
     background: #ffffff url(../images/bg-404.jpg) no-repeat center center;
     height: 100%;
     min-height: 598px;
+
+    &__text{
+        padding-top: 100px;
+        width: 545px;
+        margin: 0 auto;
+
+            h1 {
+                font-size: 30px;
+                line-height: 36px;
+                margin-bottom: 20px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            a {
+                text-decoration: underline;
+                color: #103a71;
+            }
+    }
 }
-.wrapper-404__text{
-    padding-top: 100px;
-    width: 545px;
-    margin: 0 auto;
-}
-.wrapper-404__text h1{
-    font-size: 30px;
-    line-height: 36px;
-    margin-bottom: 20px;
-}
-.wrapper-404__text p{
-    font-size: 16px;
-}
-.wrapper-404__text a{
-    text-decoration: underline;
-    color: #103a71;
-}
+
 .h-table{
     border: 0 none;
     border-collapse: collapse;
@@ -3868,22 +3873,25 @@ ul.menu-top li.on a {
     width: 100%;
     margin-bottom: 50px;
     font-family: 'HyundaiSans';
+
+        tr th {
+            background-color: #0d75ba;
+            color: #fff;
+            line-height: 14px;
+            font-weight: normal;
+            padding: 10px 5px;
+            border-bottom: 1px solid #fff;
+            text-align: center;
+        }
+
+        tr td {
+            border: 1px solid #e6e6e6;
+            font-size: 10px;
+            text-align: center;
+            padding: 10px 2px;
+        }
 }
-.h-table tr th {
-    background-color: #0d75ba;
-    color: #fff;
-    line-height: 14px;
-    font-weight: normal;
-    padding: 10px 5px;
-    border-bottom: 1px solid #fff;
-    text-align: center;
-}
-.h-table tr td {
-    border: 1px solid #e6e6e6;
-    font-size: 10px;
-    text-align: center;
-    padding: 10px 2px;
-}
+
 .offers-content .offer-terms ol,
 .offers-content .offer-terms ul,
 .area-contents .hnd-ul,
