@@ -2269,13 +2269,11 @@ input,input:focus,input:active {
         font-size: 1.5em;
     }
     .wrapper-404__text {
-         width: auto;
+        width: auto;
         max-width: 100%;
         padding: 0 15px;
     }
-
 }
-
 
 .hero-slide__panel-inner>* {
     display: inline-block;
@@ -5302,10 +5300,20 @@ div.lt-invite.lt-pseudo-label {
         margin: 0 auto;
         width: 100%;
     }
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
     .wrapper-404 {
-        background: #ffffff url(../images/bg-404.jpg) no-repeat 60% center;
+        background: #ffffff url(../images/bg-404.jpg) no-repeat 70% center;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .wrapper-404 {
+        background: #ffffff url(../images/bg-404.jpg) no-repeat 55% center;
+    }
+}
+
 @media screen and (max-width: 767px) {
 .content_wrap{
     width: 100%;
