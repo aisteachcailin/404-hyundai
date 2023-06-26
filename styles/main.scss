@@ -1889,20 +1889,7 @@ input,input:focus,input:active {
     -ms-flex: 0 0 25%;
     flex: 0 0 25%
 }
-.section-content {
-    padding-left: 50px;
-    padding-right: 50px;
-    margin: 0 auto;
-    max-width: 1600px;
-    width: auto
-}
 
-@media screen and (max-width: 1240px) {
-    .section-content {
-        padding-left:1.6%;
-        padding-right: 1.6%
-    }
-}
 .main-header__city{
     float: left;
     font-size: 14px;
@@ -5316,7 +5303,7 @@ div.lt-invite.lt-pseudo-label {
         width: 100%;
     }
     .wrapper-404 {
-        background: #ffffff url(../images/bg-404.jpg) no-repeat 43% center;
+        background: #ffffff url(../images/bg-404.jpg) no-repeat 60% center;
     }
 }
 @media screen and (max-width: 767px) {
